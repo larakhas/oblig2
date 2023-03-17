@@ -13,7 +13,7 @@ public class Controller {
     List<BillettInfo> liste = new ArrayList<>();
 
     @PostMapping("/vis")
-    public String visListe(BilettInfo billettinfo){
+    public String visListe(BillettInfo billettinfo){
         System.out.println(liste.size());
         liste.add(billettinfo);
         String skrivUt =
